@@ -1,0 +1,132 @@
+<html>
+  
+  <head>
+    <title>Shan & Aryumand</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    
+      <style>
+body,h1,h2{font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("/img/sea.jpg")}
+.bgimg2 {background-image: url("/img/s4.jpg")}
+      </style>
+    
+  </head>
+<body>
+
+<!-- Header / Home-->
+<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Shan &amp; Aryumand</h1>
+    <h2>Vão se casar!</h2>
+    <h2><b>17.09.2022</b></h2>
+  </div>
+</header>
+
+<!-- Navbar (sticky bottom) -->
+<div class="w3-bottom w3-hide-small">
+  <div class="w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+    <a href="#home" style="width:25%" class="w3-bar-item w3-button">Inicio</a>
+    <a href="#us" style="width:25%" class="w3-bar-item w3-button">Shan &amp; Aryumand</a>
+    <a href="#wedding" style="width:25%" class="w3-bar-item w3-button">O casamento</a>
+    <a href="#rsvp" style="width:25%" class="w3-bar-item w3-button w3-hover-black">Resposta</a>
+  </div>
+</div>
+
+<!-- About / Jane And John -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min" id="us">
+  <div class="w3-content">
+    <h1 class="w3-center w3-text-grey"><b>Shan &amp; Aryumand</b></h1>
+    <img class="w3-round w3-grayscale-min" src="/img/s2.jpg" style="width:100%;margin:32px 0">
+    <p>
+      <i>Nos conhecemos quando lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+      laboris nisi ut aliquip ex ea commodo consequat.
+      </i>
+    </p><br>
+    <p class="w3-center">
+      <a href="#wedding" class="w3-button w3-black w3-round w3-padding-large w3-large">Detalhes da cerimonia</a>
+    </p>
+  </div>
+</div>
+
+<!-- Background photo -->
+<div class="w3-display-container bgimg2">
+  <div class="w3-display-middle w3-text-white w3-center">
+    <h1 class="w3-jumbo">Vocês estão convidados</h1><br>
+    <h2> Para o dia mais importante de nossas vidas</h2>
+  </div>
+</div>
+
+<!-- Wedding information -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-grayscale-min w3-center" id="wedding">
+  <div class="w3-content">
+    <h1 class="w3-text-grey"><b>O casamento</b></h1>
+    <img class="w3-round-large w3-grayscale-min" src="/img/s5.jpg" style="width:100%;margin:64px 0">
+    <div class="w3-row">
+      <div class="w3-half">
+        <h2>Quando</h2>
+        <p>Cerimônia - 2:00pm</p>
+        <p>Recepção &amp; Jantar - 5:00pm</p>
+      </div>
+      <div class="w3-half">
+        <h2>Onde</h2>
+        <p>Salão imperial - Rua Velha, 103 - São Pedro, SP</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- RSVP section -->
+<div class="w3-container w3-padding-64 w3-pale-red w3-center w3-wide" id="rsvp">
+  <h1>Esperamos você lá!</h1>
+  <p class="w3-large">Por favor, responda até Agosto de 2022</p>
+  <p class="w3-xlarge">
+    <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Responder</button>
+  </p>
+</div>
+
+<!-- RSVP modal -->
+<div id="id01" class="w3-modal">
+  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
+    <div class="w3-container w3-white w3-center">
+      <h1 class="w3-wide">Você pode comparecer?</h1>
+      <p>Nós realmente esperamos que você vá!</p>
+      <form>
+        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
+      </form>
+      <p><i>Carinhosamente, Shan &amp; Aryumand</i></p>
+      <div class="w3-row">
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Vou</button>
+        </div>
+        <div class="w3-half">
+          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Não vou</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+    <span>
+      Todos os direitos reservados 2022
+    </span>
+  </footer>
+  
+    <div class="w3-hide-small" style="margin-bottom:32px">&nbsp;</div>
+
+
+  </body>
+
+</html>

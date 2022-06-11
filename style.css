@@ -1,0 +1,97 @@
+/* Seletor TAG */
+nav{
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+
+  background-color: #D3AB9E;
+  height: 60px; 
+  padding-left: 20px; 
+  padding-right: 20px; 
+}
+
+body{
+  margin: 0;
+  font-size: 1.3em;
+  background-color: #EAC9C1; 
+}
+
+/* Seletor Parent */
+nav a{
+  text-decoration: none;
+  padding: 10px; 
+}
+
+/* link não visitado */
+nav a:link {
+  color: #553D36;
+}
+
+/* link visitado */
+nav a:visited{
+  color: #E4B0E4
+}
+
+/* efeito hover */
+nav a:hover{
+  background-color: #EBD8D0;  
+  border-radius: 5px;
+}
+
+i{
+  font-size: 24px !important;
+  color: #553D36
+}
+
+/* Seletor ID # */
+#logo i{
+  color: #553D36;  
+}
+
+#logo span{
+  color: #553D36;
+  text-shadow: 3px 3px 10px black
+}
+
+main{
+  width: 70%;
+  margin: 50px auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: space-around;
+}
+
+/* Selectpr filho */
+main>div {
+  background-color: #553D36
+  border-radius: 5px;
+  box-shadow: 0 0 5px black;
+  text-align: center; 
+  margin-bottom: 20px
+}
+
+/* Seletor parente */
+main img{
+  height: 200px;
+}
+
+/* Seletor agrupado */
+.us{
+  background-color: #776258;
+  height: 100%;
+  display: flex; 
+  flex-direction: column;
+}
+
+footer{
+  margin-top: auto;
+  background-color: #D3AB9E; 
+  height: 60px;
+  color:  #553D36;
+
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
